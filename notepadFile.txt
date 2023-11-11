@@ -1,0 +1,85 @@
+TODO : 
+1. How website works ----> http verbs,httpStatusCode 
+2. Nodejs vaneko k ho , kina nodejs? Express,portNumber,getAPI 
+Postman download gardae garda hunchha && xampp
+Server Side REndering(ssr) , Client side rendering (CSR) ? 
+
+CMS(Content Management system)[Blog]CRUD
+ORM,ODM,Type-ORM, sequelize,mongoose
+Database connection,fileHandling,s3 Bucket,digital ocean spaces,cloudinary 
+AUthentication 
+Register hashing,encryption/decryption, http,https,Man in the middle attack (MITM)
+Login : Token,cookie,session,Json web token 
+API Documentation 
+How to make our project online ? Free or premium 
+Vps / cpanel
+Github Tour : 
+
+router.patch("/users")
+
+
+
+4.18.2 ==> semantic versioning(semVer versioning)
+major.minor.patch
+
+http
+Common JS (CJS)
+const express = require("express")
+module.export = express
+
+ES 
+import * as express from 'express'
+export default express 
+http://localhost:3000/
+127.0.0.1:3000
+[::1]:3000
+
+JSON vaneko k ho ? 
+javascript object notation 
+
+const userName = "Manish Basnet" ==> JS syntax 
+Java => problem 
+python => problem 
+
+xml(extended mark up language) = data hold , transfer 
+<userName>Manish Basnet </userName>
+
+Json
+{
+"userName" : "Manish Basnet"
+}
+
+
+SELECT * FROM blogs 
+INSERT INTO BLOGS(title,subTitle,image,description) VALUES("thisistitle","thisissubtitle","thisisimage","thisisdescription")
+
+UPDATE FROM blogs
+DELETE FROM blogs where id = 1
+
+ORM (object relational mapping)==>sequelize ==>sql
+ODM(object document mapping)==>mongoose => nosql
+
+
+blogs.findAll()
+blogs.create({
+title : "thisistitle",
+subTitle : "thisissubtitle"
+})
+blogs.update()
+blogs.destroy()
+
+
+manishbasnet ==>camelcase ==> manishBasnet
+manishbasnetfromitahari => manishBasnetFromItahari
+snake_case 
+manishbasnet ===>snakcase ==>manish_basnet
+PascalCase ==> ManishBasnet
+kebab-case ==>manish-basnet
+manishbasnetfromitahari => manish-basnet-from-itahari
+
+Hashing ( one way ) 
+Encryption( two way ) -> decryption
+
+
+
+
